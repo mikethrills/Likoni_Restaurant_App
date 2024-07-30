@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.likonirestaurante">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" android:required="false" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" android:required="false" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.LikoniRestaurante"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Receipt"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+              <activity
+            android:name="com.example.likonirestaurante.Activity.Permissions.LocationPermission"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Purchases"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Profile.Wallet"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Profile.AccountDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Profile.FullScreenImageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.PastaSideDish"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.ChapatiSideDish"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.UgaliSideDish"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.RiceSideDish"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.SoftDrinks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.HotDrinks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.SubCategories.NonAlcoholicDrinks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.FoodDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cartegories.Drinks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cartegories.Snacks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cartegories.FastFood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cartegories.Breakfast"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cartegories.Heavy_Meals"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.TrackOrder"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Support"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Account"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Cart"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.MainMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Complete_SigningUp"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.OTP_Verification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.likonirestaurante.Activity.Get_Started"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

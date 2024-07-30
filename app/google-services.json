@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "561161116341",
+    "firebase_url": "https://likoni-restaurant-mytime-default-rtdb.firebaseio.com",
+    "project_id": "likoni-restaurant-mytime",
+    "storage_bucket": "likoni-restaurant-mytime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561161116341:android:d5da444c50c4f99b733cfc",
+        "android_client_info": {
+          "package_name": "com.example.likonirestaurante"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA_RVLaDfbGl5qwW53cMu72dc-OBCZkFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
